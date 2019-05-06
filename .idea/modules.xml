@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-docker/springboot-docker.iml" filepath="$PROJECT_DIR$/springboot-docker/springboot-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-druid/springboot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-h2/springboot-h2.iml" filepath="$PROJECT_DIR$/springboot-h2/springboot-h2.iml" />

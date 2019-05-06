@@ -11,14 +11,17 @@
     <groupId>com.hb</groupId>
     <artifactId>springboot-netty</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>springboot-netty</name>
-    <description>Demo project for Spring Boot With Netty</description>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <!--springWeb核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -29,6 +32,9 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--springWeb核心包 end-->
+
+        <!--netty核心包 start-->
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
@@ -38,11 +44,15 @@
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
         </dependency>
+        <!--netty核心包 end-->
+
+        <!--springTest核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--springTest核心包 end-->
     </dependencies>
 
     <build>

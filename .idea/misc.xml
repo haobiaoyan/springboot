@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/springboot-docker/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-multidatasource/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo/pom.xml" />
       </list>
     </option>
   </component>

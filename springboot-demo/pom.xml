@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>springboot-h2</artifactId>
+    <artifactId>springboot-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>springboot-h2</name>
+    <name>springboot-demo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,25 +21,12 @@
     </properties>
 
     <dependencies>
-        <!-- spring data jpa 核心包 start-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <!-- spring data jpa 核心包 end-->
-
-        <!-- spring boot web支持：mvc,aop... -->
+        <!--springWeb核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <!-- 内存数据库h2-->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+        <!--springWeb核心包 end-->
 
         <!--springTest核心包 start-->
         <dependency>

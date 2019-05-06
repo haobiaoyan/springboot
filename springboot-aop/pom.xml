@@ -11,37 +11,54 @@
     <groupId>com.example</groupId>
     <artifactId>springboot-aop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>springboot-aop</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <!--springWeb核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- spring-boot aop依赖配置引入 -->
+        <!--springWeb核心包 end-->
+
+        <!-- spring-boot aop依赖配置引入 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+        <!-- spring-boot aop依赖配置引入 end-->
+
+        <!--springTest核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--springTest核心包 end-->
+
+        <!--fastjson核心包 start-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
+        <!--fastjson核心包 end-->
+
+        <!--lombok核心包 start-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
+        <!--lombok核心包 end-->
     </dependencies>
 
     <build>

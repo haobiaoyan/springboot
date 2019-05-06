@@ -3,60 +3,72 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <artifactId>springboot</artifactId>
+        <groupId>com.example</groupId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <groupId>com.example</groupId>
     <artifactId>springboot-druid</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>springboot-druid</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
+        <!--springTest核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--springTest核心包 end-->
 
+        <!--springWeb核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--springWeb核心包 end-->
+
+        <!--springJpa核心包 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+        <!--springJpa核心包 end-->
+
         <!-- 引入druid依赖 -->
         <!-- 此处的引用有两种 -->
         <!-- 一种是直接引用druid包,另一种是引用starter方式 -->
-        <!-- 在此处我引用的是start包,为什么呢，因为方便呀... -->
+        <!-- 在此处我引用的是start包,为什么呢，因为方便... -->
         <!-- 注:如果没有该包,application.properties/application.yml 中将不会出现关于druid的提示 -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.10</version>
+            <version>${druid.version}</version>
         </dependency>
+
+        <!--mysql核心包 start-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
             <scope>runtime</scope>
         </dependency>
+        <!--mysql核心包 end-->
+
+        <!--springJdbc核心包 start-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
         </dependency>
+        <!--springJdbc核心包 end-->
     </dependencies>
 
     <build>

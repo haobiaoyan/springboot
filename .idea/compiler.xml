@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot" />
         <module name="springboot-aop" />
+        <module name="springboot-demo" />
         <module name="springboot-docker" />
         <module name="springboot-druid" />
         <module name="springboot-h2" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="springboot" target="1.8" />
       <module name="springboot-aop" target="1.8" />
+      <module name="springboot-demo" target="1.8" />
       <module name="springboot-docker" target="1.8" />
       <module name="springboot-druid" target="1.8" />
       <module name="springboot-h2" target="1.8" />
