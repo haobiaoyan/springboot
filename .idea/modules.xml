@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-docker/springboot-docker.iml" filepath="$PROJECT_DIR$/springboot-docker/springboot-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-druid/springboot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-h2/springboot-h2.iml" filepath="$PROJECT_DIR$/springboot-h2/springboot-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-log/springboot-log.iml" filepath="$PROJECT_DIR$/springboot-log/springboot-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-multidatasource/springboot-multidatasource.iml" filepath="$PROJECT_DIR$/springboot-multidatasource/springboot-multidatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-netty/springboot-netty.iml" filepath="$PROJECT_DIR$/springboot-netty/springboot-netty.iml" />
     </modules>

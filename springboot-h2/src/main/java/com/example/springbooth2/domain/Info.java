@@ -1,6 +1,7 @@
 package com.example.springbooth2.domain;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Date;
 
@@ -8,7 +9,7 @@ import java.util.Date;
 public class Info {
 
     @Id
-    //@GeneratedValue
+    @GeneratedValue
     private Integer id;
     private Date createTime;//创建时间
     private Date updateTime;//更新时间

@@ -1,0 +1,38 @@
+#选择哪一个环境的配置
+#这里可以在每个环境配置redis，数据库（mysql），消息（kafka）等相关的组件的配置
+spring:
+  profiles:
+    active: dev
+
+#文档块区分为三个---
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+#日志
+logging:
+  config: classpath:log/logback.xml
+  path: log/spring-boot-log
+
+#文档块区分为三个---
+---
+server:
+  port: 8082
+spring:
+  profiles: test
+#日志
+logging:
+  config: classpath:log/logback.xml
+  path: usr/spring-boot/log/spring-boot-log
+
+#文档块区分为三个---
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
+#日志
+logging:
+  config: classpath:log/logback.xml
+  path: usr/spring-boot/log/spring-boot-log

@@ -25,7 +25,7 @@ public class InfoController {
     @RequestMapping("/save")
     public String save() {
         Info info = new Info();
-        info.setId(2370);
+        //info.setId(2370);
         info.setCreateTime(new Date());
         info.setUpdateTime(new Date());
         info.setIsStatus(1);

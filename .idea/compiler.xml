@@ -12,6 +12,7 @@
         <module name="springboot-docker" />
         <module name="springboot-druid" />
         <module name="springboot-h2" />
+        <module name="springboot-log" />
         <module name="springboot-multidatasource" />
         <module name="springboot-netty" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="springboot-docker" target="1.8" />
       <module name="springboot-druid" target="1.8" />
       <module name="springboot-h2" target="1.8" />
+      <module name="springboot-log" target="1.8" />
       <module name="springboot-multidatasource" target="1.8" />
       <module name="springboot-netty" target="1.8" />
     </bytecodeTargetLevel>
